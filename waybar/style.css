@@ -1,16 +1,14 @@
 * {
     border: none;
     min-height: 0;
-    font-family: "JetBrains Nerd Font Mono";
+    font-family: "Ubuntu";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     padding: 0;
 }
 
 window#waybar {
-    background: #1f1c27;
-    border: 2px solid #b6a0ff;
-    border-radius: 4px;
+    background: rgba(0, 0, 0, 0); /* Semi-transparent version of the original color */
 }
 
 tooltip {
@@ -61,8 +59,8 @@ tooltip {
 }
 
 #clock {
-    background-color: #b6a0ff;
-    border: 2px solid #353146;
+    background-color: #a090d8;
+    /* border: 2px solid #353146; */
     color: #1f1c27;
 }
 
@@ -73,13 +71,13 @@ tooltip {
 #battery,
 #tray,
 #language {
-    background-color: #353146;
-    border: 2px solid #b6a0ff;
-    color: #b6a0ff;
+    background-color: #a090d8;
+    /* border: 2px solid #b6a0ff; */
+    color: #1f1c27;
 }
 
 #network {
-    min-width: 100px;
+    min-width: 120px;
 }
 
 #cpu,
@@ -102,14 +100,6 @@ tooltip {
     border: 2px solid #e542c0;
 }
 
-#custom-launcher {
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
-    border-radius: 10px;
-    transition: none;
-    color: #b6a0ff;
-}
 
 #language {
     min-width: 20px;
