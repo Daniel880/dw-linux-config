@@ -42,7 +42,8 @@
     "hyprland/workspaces": {
         "disable-scroll": true,
         "separate-outputs": true,
-        "tooltip": false
+        "tooltip": false,
+        "show-special": true
     },
     "tray": {
         "spacing": 10,
