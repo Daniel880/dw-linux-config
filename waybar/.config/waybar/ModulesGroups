@@ -34,11 +34,11 @@
 
 "group/mobo_drawer": {
 	"orientation": "inherit",
-	"drawer": {
-		"transition-duration": 500,
-		"children-class": "cpu",
-		"transition-left-to-right": true
-        },
+	// "drawer": {
+	// 	"transition-duration": 500,
+	// 	"children-class": "cpu",
+	// 	"transition-left-to-right": true
+    //     },
 	"modules": [
 		"temperature",		
 		"cpu",
@@ -56,11 +56,11 @@
 },
 "group/audio": {
 	"orientation": "inherit",
-	"drawer": {
-		"transition-duration": 500,
-		"children-class": "pulseaudio",
-		"transition-left-to-right": true
-        },
+	// "drawer": {
+	// 	"transition-duration": 500,
+	// 	"children-class": "pulseaudio",
+	// 	"transition-left-to-right": false
+    //     },
 	"modules": [
 		"pulseaudio",
 		"pulseaudio#microphone",
@@ -69,11 +69,11 @@
 
 "group/connections": {
 	"orientation": "inherit",
-	"drawer": {
-		"transition-duration": 500,
-		"children-class": "bluetooth",
-		"transition-left-to-right": true
-        },
+	// "drawer": {
+	// 	"transition-duration": 500,
+	// 	"children-class": "bluetooth",
+	// 	"transition-left-to-right": true
+    //     },
 	"modules": [
 		"network",
 		"bluetooth",
@@ -82,11 +82,11 @@
 
 "group/status": {
 	"orientation": "inherit",
-	"drawer": {
-		"transition-duration": 500,
-		"children-class": "custom/power",
-		"transition-left-to-right": false
-        },
+	// "drawer": {
+	// 	"transition-duration": 500,
+	// 	"children-class": "custom/power",
+	// 	"transition-left-to-right": false
+    //     },
 	"modules": [
 		"custom/power",
 		"custom/lock",
