@@ -19,7 +19,7 @@
 	"format-icons": [
 		"󰈸"
 	],
-	"on-click-left": "kitty --title nvtop sh -c 'nvtop'"
+	"on-click-right": "kitty --title nvtop sh -c 'nvtop'"
 },
 
 "backlight": {
