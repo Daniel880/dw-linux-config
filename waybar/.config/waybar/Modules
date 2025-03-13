@@ -161,7 +161,7 @@
 	"format-icons": [
 		"▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"
 	],
-	"on-click-left": "gnome-system-monitor"
+	"on-click-right": "gnome-system-monitor"
 },
 
 "disk": {
@@ -232,7 +232,7 @@
 	// "format-alt-click": "click",
 	"tooltip": true,
 	// "tooltip-format": "{used:0.1f}GB/{total:0.1f}G",
-	"on-click-left": "kitty --title btop sh -c 'btop'"
+	"on-click-right": "kitty --title btop sh -c 'btop'"
 },
 
 "mpris": {
