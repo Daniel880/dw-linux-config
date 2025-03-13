@@ -194,7 +194,7 @@
 		"class<tor browser>": " ",
 		"class<firefox-developer-edition>": "🦊 ",
 
-		"class<kitty|konsole>": " ",
+		"class<kitty|konsole>": " ",
 		"class<kitty-dropterm>": " ",
 		"class<com.mitchellh.ghostty>": " ",
 		"class<org.wezfurlong.wezterm>": " ",
@@ -209,14 +209,6 @@
 		"title<.*messenger.*>": " ",
 		"title<.*facebook.*>": " ",
 		"title<.*reddit.*>": " ",
-
-
-		"title<.*ChatGPT.*>": "󰚩 ",
-		"title<.*deepseek.*>": "󰚩 ",
-		"title<.*AI.*>": "󰚩 ",
-		"title<.*qwen.*>": "󰚩 ",
-		"class<subl>": "󰅳 ",
-		"class<slack>": " ",
 
 		"class<mpv>": " ",
 		"class<celluloid|Zoom>": " ",
@@ -233,7 +225,7 @@
 		"title<virtualbox>": "💽 ",
 		"class<remmina>": "🖥️ ",
 
-		"class<VSCode|code-url-handler|code-oss|codium|codium-url-handler|VSCodium>": "󰨞 ",
+		"class<VSCode|code-url-handler|code-oss|codium|codium-url-handler|VSCodium|code>": "󰨞 ",
 		"class<codeblocks>": "󰅩 ",
 		"title<.*github.*>": " ",
 		"class<mousepad>": " ",
@@ -259,7 +251,13 @@
 		"class<android-studio>": " ",
 
 		"class<gitkraken>": " ",
-    	"class<code>": " ",
+
+		"title<.*ChatGPT.*>": "󰚩 ",
+		"title<.*deepseek.*>": "󰚩 ",
+		// "title<.*AI.*>": "󰚩 ",
+		"title<.*qwen.*>": "󰚩 ",
+		"class<subl>": "󰅳 ",
+		"class<slack>": " "
         
 		}   
 	},

@@ -6,7 +6,7 @@
 {
 
 "temperature": {
-	"interval": 10,
+	"interval": 2,
 	"tooltip": true,
 	"hwmon-path": [
 		"/sys/class/hwmon/hwmon1/temp1_input",
@@ -155,13 +155,13 @@
 "cpu": {
 	"format": "{usage}%",
 	"interval": 1,
-	"min-length": 5,
+	// "min-length": 5,
 	"format-alt-click": "click",
 	"format-alt": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% 󰍛",
 	"format-icons": [
 		"▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"
 	],
-	"on-click-right": "gnome-system-monitor"
+	"on-click-left": "gnome-system-monitor"
 },
 
 "disk": {
@@ -169,7 +169,7 @@
 	//"format": "󰋊",
 	"path": "/",
 	//"format-alt-click": "click",
-	"format": "{percentage_used}% 󰋊",
+	"format": "{percentage_used}%",
 	//"tooltip": true,
 	"tooltip-format": "{used} used out of {total} on {path} ({percentage_used}%)",
 },
@@ -301,7 +301,7 @@
 },
 
 "power-profiles-daemon": {
-  "format": "{icon} ",
+  "format": "{icon}",
   "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
   "tooltip": true,
   "format-icons": {
