@@ -43,8 +43,8 @@
 		"temperature",		
 		"cpu",
 		"power-profiles-daemon",	
-		"memory",
-		"disk",
+		"memory"
+		// "disk"
 	]
 },
 "group/laptop": {
@@ -56,11 +56,6 @@
 },
 "group/audio": {
 	"orientation": "inherit",
-	// "drawer": {
-	// 	"transition-duration": 500,
-	// 	"children-class": "pulseaudio",
-	// 	"transition-left-to-right": false
-    //     },
 	"modules": [
 		"pulseaudio",
 		"pulseaudio#microphone",
@@ -89,8 +84,8 @@
     //     },
 	"modules": [
 		"custom/power",
-		"custom/lock",
-		"keyboard-state",
+		// "custom/lock",
+		// "keyboard-state",
 		"custom/keyboard",
 	]
 },
